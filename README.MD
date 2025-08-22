@@ -19,7 +19,7 @@ We are taking protective and verification measures to ensure that only the offic
 
 Thank you for
 
-#=================================================================================================#
+
 
 # Black Horse Puzzle – Futuristic Game Landing Page
 
