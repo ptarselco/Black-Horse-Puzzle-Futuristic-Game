@@ -18,62 +18,76 @@
       align-items: center;
       justify-content: center;
     }
+    .logo-top-right {
+      position: absolute;
+      top: 48px;
+      right: 48px;
+      z-index: 10;
+      width: 72px;
+      height: 72px;
+      border-radius: 14px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+      background: #fff;
+      border: 3px solid #00eaff;
+      object-fit: contain;
+    }
     .container {
       background: rgba(0, 0, 0, 0.35);
       border-radius: 18px;
       padding: 48px 32px 32px 32px;
-      max-width: 480px;
+      max-width: 520px;
       box-shadow: 0 8px 32px rgba(0,0,0,0.25);
       text-align: center;
       position: relative;
+      margin-top: 48px;
     }
     .horse-img {
-      width: 180px;
-      margin-bottom: 24px;
+      width: 200px;
+      margin-bottom: 28px;
       border-radius: 12px;
       box-shadow: 0 4px 16px rgba(0,0,0,0.18);
       background: #fff;
       object-fit: contain;
     }
     h1 {
-      font-size: 2.2em;
+      font-size: 2.5em;
       margin-bottom: 0.4em;
       color: #00eaff;
       letter-spacing: 1px;
+      text-align: center;
     }
     .warning {
       color: #ffd700;
       font-weight: bold;
       margin: 18px 0 10px 0;
-      font-size: 1.1em;
+      font-size: 1.2em;
+      text-align: center;
     }
     .official {
       color: #fff;
-      font-size: 1.05em;
+      font-size: 1.15em;
       margin-bottom: 18px;
+      text-align: center;
     }
     .domain {
       color: #00eaff;
       font-weight: bold;
-      font-size: 1.1em;
+      font-size: 1.15em;
       text-decoration: underline;
     }
     .footer {
       margin-top: 32px;
-      font-size: 0.98em;
+      font-size: 1em;
       color: #b0e0ff;
+      text-align: center;
     }
   </style>
 </head>
 <body>
+  <!-- Logo Black Horse di kanan atas luar kotak -->
+  <img src="LogoBlackHorse.png" alt="Black Horse Logo" class="logo-top-right" />
   <div class="container">
-    <!-- Ganti src dengan gambar Black Horse yang Lusi pilih -->
     <img src="BlackHorseHerd.png" alt="Black Horse Puzzle" class="horse-img" />
-    <img src="LogoBlackHorse.png" alt="Black Horse Logo"
-        style="width:56px; height:56px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.12); background:#fff; border:2px solid #00eaff;" />
-      <span style="font-size: 1.6em; font-weight: bold; color: #00eaff; letter-spacing: 2px;">
-      </span>
-    </div>
     <h1>Official Black Horse Puzzle</h1>
     <div class="warning">
       Beware of fake or copycat websites!
